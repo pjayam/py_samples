@@ -12,7 +12,7 @@ for x in mylist:
 #Below one throws index out of range
 #print(mylist[19])
 
-
+print("----------------EXERCISE--------------------")
 
 numbers = []
 strings = []
@@ -22,6 +22,7 @@ names = ["John", "Eric", "Jessica"]
 numbers.append(1)
 numbers.append(2)
 numbers.append(3)
+numbers.append("asd")
 
 strings.append("hello")
 strings.append("world")
@@ -31,4 +32,4 @@ second_name = names[1]
 # this code should write out the filled arrays and the second name in the names list (Eric).
 print(numbers)
 print(strings)
-print("The second name on the names list is %s" % second_name)
+print("The second name on the names list is %s" %second_name)
