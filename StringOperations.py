@@ -23,7 +23,7 @@ print(astring.split(" "))
 print("----------------EXERCISE--------------------")
 s = "Strings are awesome!"
 # Length should be 20
-print("Length of s = %d" % len(s))
+print("Length of string s is = %d" % len(s))
 
 # First occurrence of "a" should be at index 8
 print("The first occurrence of the letter a = %d" % s.index("a"))
